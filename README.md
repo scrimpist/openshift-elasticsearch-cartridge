@@ -27,6 +27,17 @@ To install ElasticSearch plugins -
 
 The above steps have been tested in OpenShift Online (v2). For Openshift Enterprise, in case it does not have internet access, you may need to copy the plugins and install them.
 
+
+Options
+=======
+To set specific options, i.e. for plugins, use the options.txt file or set them as environment variable ES_JAVA_OPTS.
+
+
+HTTP-Basic Authentication
+=========================
+[HTTP-Basic-Authentication](https://github.com/Asquera/elasticsearch-http-basic) is enabled by default. The Credentials are set in the options.txt file, default is user `testuser` and password `changeme`. 
+
+
 License
 =======
 This project is licensed under the [Apache License 2.0](http://www.apache.org/licenses/LICENSE-2.0.html).
