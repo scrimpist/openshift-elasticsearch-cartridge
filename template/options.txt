@@ -1,0 +1,1 @@
+-Des.http.basic.enabled=true -Des.http.basic.user=testuser -Des.http.basic.password=changeme -Des.http.basic.log=true

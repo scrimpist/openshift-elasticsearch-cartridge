@@ -17,7 +17,7 @@
 ##   http://mobz.github.io/elasticsearch-head
 
 ## Uncomment line below to install this plugin
-## mobz/elasticsearch-head
+mobz/elasticsearch-head
 
 ## Description:
 ##   Paramedic is a simple yet sexy tool to monitor and inspect
@@ -59,3 +59,6 @@
 
 ## Uncomment line below to install this plugin
 ## elasticsearch/marvel/latest
+
+## HTTP Basic-Authentication
+http-basic=https://github.com/Asquera/elasticsearch-http-basic/releases/download/v1.4.0/elasticsearch-http-basic-1.4.0.jar
