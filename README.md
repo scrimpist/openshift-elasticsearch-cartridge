@@ -1,6 +1,6 @@
 OpenShift ElasticSearch Cartridge
 =================================
-Downloadable ElasticSearch cartridge for OpenShift.
+Downloadable ElasticSearch cartridge for OpenShift with HTTP-Basic-Authentication.
 
 To create your scalable ElasticSearch app, run:
 
