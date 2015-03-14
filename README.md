@@ -4,7 +4,7 @@ Downloadable ElasticSearch cartridge for OpenShift with HTTP-Basic-Authenticatio
 
 To create your scalable ElasticSearch app, run:
 
-    rhc app create <your app name> http://cartreflect-claytondev.rhcloud.com/github/magdev/openshift-elasticsearch-cartridge -s
+    rhc app create <your app name> https://raw.githubusercontent.com/magdev/openshift-elasticsearch-cartridge/master/metadata/manifest.yml -s
 
 **NOTE:** your app currently must be a scalable app or this cartridge will not run.
 
