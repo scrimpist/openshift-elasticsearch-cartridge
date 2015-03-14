@@ -1,12 +1,12 @@
 Name: elasticsearch
 Cartridge-Short-Name: ELASTICSEARCH
-Display-Name: ElasticSearch 1.4.4
-Description: "ElasticSearch"
-Version: 1.0.0
-License: Apache
-Vendor: elasticsearch.org
 Cartridge-Version: 0.0.1
 Cartridge-Vendor: magdev
+Display-Name: ElasticSearch 1.4.4
+Description: "ElasticSearch"
+Version: 1.4.4
+License: Apache
+Vendor: elasticsearch.org
 
 Categories:
   - web_framework
@@ -41,7 +41,7 @@ Endpoints:
     - http
     Mappings:
     - Frontend: ''
-      Backend: ''
+      Backend: '/_plugin/head'
 
   - Private-IP-Name:   IP
     Private-Port-Name: TRANSPORT_PORT
