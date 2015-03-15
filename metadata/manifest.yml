@@ -48,4 +48,4 @@ Endpoints:
     Private-Port:      9300
     Public-Port-Name:  TRANSPORT_PROXY_PORT
 
-Source-Url: https://github.com/magdev/openshift-elasticsearch-cartridge/archive/master.zip
+Source-Url: https://github.com/kibanaco/openshift-elasticsearch-cartridge/archive/master.zip
