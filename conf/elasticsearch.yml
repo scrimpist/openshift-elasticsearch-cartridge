@@ -388,3 +388,7 @@ marvel.agent.interval: 60s
 # it unless you need it is recommended (it is disabled by default).
 #
 #http.jsonp.enable: true
+
+
+http.cors.enabled: true
+http.cors.allow-origin: ${OPENSHIFT_ELASTICSEARCH_IP}:${OPENSHIFT_ELASTICSEARCH_PORT}
