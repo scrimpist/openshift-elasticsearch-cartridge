@@ -391,4 +391,4 @@ marvel.agent.interval: 60s
 
 
 http.cors.enabled: true
-http.cors.allow-origin: ${OPENSHIFT_ELASTICSEARCH_IP}:${OPENSHIFT_ELASTICSEARCH_PORT}
+http.cors.allow-origin: */*
