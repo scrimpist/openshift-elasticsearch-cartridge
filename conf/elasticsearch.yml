@@ -391,4 +391,4 @@ marvel.agent.interval: 60s
 
 
 http.cors.enabled: true
-http.cors.allow-origin: "*/*"
+http.cors.allow-origin: "/.*/"
